@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4960322347,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User access the Amaricanas Website",
+            "match": {
+              "location": "HomePageSteps.userAccessTheAmericanasWebsite()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2435986100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User check the submit button with a empty form",
+        "description": "",
+        "id": "check-the-contato-page;user-check-the-submit-button-with-a-empty-form",
+        "after": [
+          {
+            "result": {
+              "duration": 999143959,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2482237270,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on moto g7",
+            "match": {
+              "location": "HomePageSteps.userClickOnMotoG7()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39314046,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c.... importa para você.[TJ]\u003e but was:\u003c.... importa para você.[]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat steps.HomePageSteps.userValidateStringMotoG7(HomePageSteps.java:34)\n\tat ✽.Then User views \"família moto g7. importa para você.TJ\" on screen moto g7(HomePage.feature:8)\n",
+              "status": "failed"
+            },
+            "output": [
+              "url: https://www.americanas.com.br/hotsite/moto-g7?chave\u003dpm_hm_tt_tel_acom_motorola_motog7_0702"
+            ],
+            "line": 8,
+            "name": "User views \"família moto g7. importa para você.TJ\" on screen moto g7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "família moto g7. importa para você.TJ",
+                  "offset": 12
+                }
+              ],
+              "location": "HomePageSteps.userValidateStringMotoG7(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check the Contato page",
+    "description": "Tags: @HomePage-feature",
+    "id": "check-the-contato-page",
+    "keyword": "Feature",
+    "uri": "HomePage.feature"
+  }
+]
