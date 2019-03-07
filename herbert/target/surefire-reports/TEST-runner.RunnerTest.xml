@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="11.474" tests="0" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="18.637" tests="4" errors="2" skipped="1" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.181-b13"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/herbert.soares/IdeaProjects/herbert"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/herbert.soares/Documents/Git/cucumberComSelWebDriver/herbert"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/herbert.soares/IdeaProjects/herbert"/>
+    <property name="user.dir" value="/Users/herbert.soares/Documents/Git/cucumberComSelWebDriver/herbert"/>
     <property name="java.runtime.version" value="1.8.0_181-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -25,15 +25,15 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/herbert.soares/Downloads/apache-maven-3.6.0/bin/m2.conf"/>
+    <property name="classworlds.conf" value="/Applications/apache-maven-3.5.4/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/herbert.soares/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="maven.conf" value="/Users/herbert.soares/Downloads/apache-maven-3.6.0/conf"/>
+    <property name="maven.conf" value="/Applications/apache-maven-3.5.4/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.13.6"/>
-    <property name="library.jansi.path" value="/Users/herbert.soares/Downloads/apache-maven-3.6.0/lib/jansi-native"/>
+    <property name="library.jansi.path" value="/Applications/apache-maven-3.5.4/lib/jansi-native"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/herbert.soares"/>
     <property name="user.timezone" value="America/Sao_Paulo"/>
@@ -41,7 +41,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="herbert.soares"/>
-    <property name="java.class.path" value="/Users/herbert.soares/Downloads/apache-maven-3.6.0/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="/Applications/apache-maven-3.5.4/boot/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre"/>
@@ -54,7 +54,7 @@
     <property name="java.ext.dirs" value="/Users/herbert.soares/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/Users/herbert.soares/Downloads/apache-maven-3.6.0"/>
+    <property name="maven.home" value="/Applications/apache-maven-3.5.4"/>
     <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -63,4 +63,20 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
+  <testcase name="Given User access the Amaricanas Website" classname="Scenario: User check the submit button with a empty form" time="0.002"/>
+  <testcase name="Given User clicks on moto g7" classname="Scenario: User check the submit button with a empty form" time="0.005">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  Background:                                &amp#27;[90m# HomePage.feature:3&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser access the Amaricanas Website&amp#27;[0m &amp#27;[90m# HomePageSteps.userAccessTheAmericanasWebsite()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: User check the submit button with a empty form" classname="Scenario: User check the submit button with a empty form" time="0.005">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="Then User views &quot;família moto g7. importa para você.TJ&quot; on screen moto g7" classname="Scenario: User check the submit button with a empty form" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>

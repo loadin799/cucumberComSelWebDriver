@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4960322347,
+              "duration": 4895798223,
               "status": "passed"
             },
             "line": 4,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 2435986100,
+              "duration": 2296236696,
               "status": "passed"
             },
             "match": {
@@ -42,7 +42,7 @@
         "after": [
           {
             "result": {
-              "duration": 999143959,
+              "duration": 1061396629,
               "status": "passed"
             },
             "match": {
@@ -55,8 +55,9 @@
         "steps": [
           {
             "result": {
-              "duration": 2482237270,
-              "status": "passed"
+              "duration": 10039814336,
+              "error_message": "java.lang.NullPointerException\n\tat support.DriverQA.click(DriverQA.java:108)\n\tat pages.HomePage.clickMotoG7(HomePage.java:52)\n\tat steps.HomePageSteps.userClickOnMotoG7(HomePageSteps.java:19)\n\tat ✽.Given User clicks on moto g7(HomePage.feature:7)\n",
+              "status": "failed"
             },
             "line": 7,
             "name": "User clicks on moto g7",
@@ -67,12 +68,10 @@
           },
           {
             "result": {
-              "duration": 39314046,
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c.... importa para você.[TJ]\u003e but was:\u003c.... importa para você.[]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat steps.HomePageSteps.userValidateStringMotoG7(HomePageSteps.java:34)\n\tat ✽.Then User views \"família moto g7. importa para você.TJ\" on screen moto g7(HomePage.feature:8)\n",
-              "status": "failed"
+              "status": "skipped"
             },
             "output": [
-              "url: https://www.americanas.com.br/hotsite/moto-g7?chave\u003dpm_hm_tt_tel_acom_motorola_motog7_0702"
+              "url: https://www.americanas.com.br/"
             ],
             "line": 8,
             "name": "User views \"família moto g7. importa para você.TJ\" on screen moto g7",
@@ -87,11 +86,17 @@
             },
             "keyword": "Then "
           }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Case1"
+          }
         ]
       }
     ],
     "name": "Check the Contato page",
-    "description": "Tags: @HomePage-feature",
+    "description": "",
     "id": "check-the-contato-page",
     "keyword": "Feature",
     "uri": "HomePage.feature"

@@ -6,8 +6,6 @@ import cucumber.api.java.Before;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.testng.ITestResult;
 import support.BaseSteps;
 import java.io.File;
 import java.io.IOException;
@@ -32,15 +30,6 @@ public class Hooks extends BaseSteps {
         }
 
         driver.quit();
-    }
-
-    @Override
-    public void onTestFailure(ITestResult arg0){
-        System.out.println("Failure detected...");
-        String fileName = String.format("Screenshot-%d.jpg", Calendar.getInstance().getTimeInMillis());
-        WebDriver driver = (WebDriver)arg0.getTestContext().getAttribute("webDriver");
-        TakesScreenshot ts = (TakesScreenshot)driver;
-        System.out.println("Screenshot taken");
     }
 
     public static boolean createScreenshot(File photo, String name) {
