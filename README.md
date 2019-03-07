@@ -19,6 +19,11 @@ CUCUMBER_OPTIONS='--tags "@smoke and @fast"' mvn test
 set CUCUMBER_OPTIONS='--tags "@smoke and @fast"'
 mvn test
 
+# Para gerar o Relatório de testes você vai fazer o seguinte:
+- rodar o comando no terminal: mvn test
+- Quando você rodar o comando mvn test vai ser executado todos os testes.
+- Após executar todos os testes você vai rodar o seguinte comando para gerar o relatório: mvn cluecumber-report:reporting
+
 ----------
 
 PARA RODAR OS TESTES SEM INSTALAR O MAVEN É SÓ ACESSAR O ARQUIVO RunnerTest E CLICAR NA SETA DE RUN.
