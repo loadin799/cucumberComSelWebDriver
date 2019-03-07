@@ -1,4 +1,4 @@
-# cucumberComSelWebDriver
+# Cucumber Com Selenium WebDriver
 Selenium Webdriver + Cucumber + Screenshot + Relatório.
 
 Comandos: OBS: PARA UTILIZAR OS COMANDOS, DEVE SER INSTALADO NO SEU COMPUTADOR O MAVEN. ESTOU UTILIZANDO O MAVEN 3.3.9
