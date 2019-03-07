@@ -12,13 +12,14 @@ mvn cluecumber-report:reporting = Ao Rodar esse comando é gerado o relatório d
 CUCUMBER_OPTIONS='--tags @Case1' mvn test = Se não funcionar o comando acima de tags com o cucumber, utilizar esse comando. 
 Substituir o @Case1 pela tag que queira executar dos seus testes.
 
-# Linux / OS X:
+# Comando para Rodar no Linux / OS X:
 CUCUMBER_OPTIONS='--tags "@smoke and @fast"' mvn test
 
-# Windows:
+# Comando Para Rodar no Windows:
 set CUCUMBER_OPTIONS='--tags "@smoke and @fast"'
 mvn test
 
+----------
 
 PARA RODAR OS TESTES SEM INSTALAR O MAVEN É SÓ ACESSAR O ARQUIVO RunnerTest E CLICAR NA SETA DE RUN.
 
