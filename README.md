@@ -23,6 +23,7 @@ mvn test
 - rodar o comando no terminal: mvn test
 - Quando você rodar o comando mvn test vai ser executado todos os testes.
 - Após executar todos os testes você vai rodar o seguinte comando para gerar o relatório: mvn cluecumber-report:reporting
+- Quando você rodar o comando acima do report vai ser gerado um caminho no terminal onde vc vai encontrar o .html do arquivo de relatório.
 
 ----------
 
