@@ -35,6 +35,11 @@ public class HomePageSteps extends BaseSteps {
         homePage.clickForSearch();
     }
 
+    @And("^User Click For Search Celular$")
+    public void userClickForSearchCelular() {
+        homePage.clickForSearchCelular();
+    }
+
     @Then("^User views \"([^\"]*)\" For Title Search$")
     public void userCheckTitleForSearch(String value) throws Throwable {
         Assert.assertEquals(value, homePage.checkTitleForSearch());

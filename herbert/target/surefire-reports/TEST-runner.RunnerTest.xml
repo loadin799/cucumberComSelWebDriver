@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="18.637" tests="4" errors="2" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="26.799" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.13.6"/>
+    <property name="os.version" value="10.14.4"/>
     <property name="library.jansi.path" value="/Applications/apache-maven-3.5.4/lib/jansi-native"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/herbert.soares"/>
@@ -63,20 +63,14 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given User access the Amaricanas Website" classname="Scenario: User check the submit button with a empty form" time="0.002"/>
-  <testcase name="Given User clicks on moto g7" classname="Scenario: User check the submit button with a empty form" time="0.005">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
-    <system-out><![CDATA[
-  Background:                                &amp#27;[90m# HomePage.feature:3&amp#27;[0m
-    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser access the Amaricanas Website&amp#27;[0m &amp#27;[90m# HomePageSteps.userAccessTheAmericanasWebsite()&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Scenario: User check the submit button with a empty form" classname="Scenario: User check the submit button with a empty form" time="0.005">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-</error>
-  </testcase>
-  <testcase name="Then User views &quot;família moto g7. importa para você.TJ&quot; on screen moto g7" classname="Scenario: User check the submit button with a empty form" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="Given User access the Amaricanas Website" classname="Scenario: User Search Phone Iphone" time="0.002"/>
+  <testcase name="Given User Write &quot;iphone&quot; on field for Search" classname="Scenario: User Search Phone Iphone" time="0"/>
+  <testcase name="And User Click For Search" classname="Scenario: User Search Phone Iphone" time="0"/>
+  <testcase name="Then User views &quot;iphone&quot; For Title Search" classname="Scenario: User Search Phone Iphone" time="0"/>
+  <testcase name="Scenario: User Search Phone Iphone" classname="Scenario: User Search Phone Iphone" time="0.143"/>
+  <testcase name="Given User access the Amaricanas Website" classname="Scenario: User Search Phone Celular" time="0"/>
+  <testcase name="Given User Write &quot;celular&quot; on field for Search" classname="Scenario: User Search Phone Celular" time="0"/>
+  <testcase name="And User Click For Search Celular" classname="Scenario: User Search Phone Celular" time="0"/>
+  <testcase name="Then User views &quot;celular&quot; For Title Search" classname="Scenario: User Search Phone Celular" time="0"/>
+  <testcase name="Scenario: User Search Phone Celular" classname="Scenario: User Search Phone Celular" time="0.147"/>
 </testsuite>

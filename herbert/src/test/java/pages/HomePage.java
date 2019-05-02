@@ -18,12 +18,6 @@ public class HomePage extends Hooks {
 //        navegador.get("https://www.google.com");
 //    }
 
-    @Test
-    public void Testenumero1(){
-
-
-    }
-
     @Before
     public void beforeScenario(){
 
@@ -60,6 +54,10 @@ public class HomePage extends Hooks {
     }
 
     public void clickForSearch() {
+        driver.click("//li[@class='ac-lst-it sz sz-1']//a[@class='ac-lnk src-lnk ac-term-key']", "xpath");
+    }
+
+    public void clickForSearchCelular() {
         driver.click("//li[@class='ac-lst-it sz sz-1']//a[@class='ac-lnk src-lnk ac-term-key']", "xpath");
     }
 

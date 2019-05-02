@@ -1,18 +1,4 @@
-<!--
-Copyright 2018 trivago N.V.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
---><!doctype html>
+<!doctype html>
 <!--
     Copyright 2018 trivago N.V.
 
@@ -30,13 +16,13 @@ limitations under the License.
     -->
 <html lang="en">
  <head>
-  <base href="..">  
+  <base href="./../..">  
   <meta charset="utf-8"> 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
-  <meta name="description" content="Cluecumber Report Plugin [1.2.0] - Tag Summary"> 
+  <meta name="description" content="Cluecumber Report Plugin [1.2.0] - Scenario Summary"> 
   <meta name="author" content="Cluecumber Report Plugin [1.2.0]"> 
-  <title>Tag Summary - 2019/05/02 00:59:02</title> 
+  <title>Scenario Summary - 2019/05/02 00:59:02</title> 
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"> 
   <link href="css/cluecumber.css" rel="stylesheet" type="text/css"> 
   <link rel="stylesheet" href="css/datatables.min.css"> 
@@ -45,11 +31,12 @@ limitations under the License.
  </head> 
  <body> 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> 
-   <span class="navbar-brand">Tag Summary</span> 
+   <span class="navbar-brand">Scenario Summary</span> 
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> 
    <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
     <ul class="navbar-nav mr-auto"> 
      <li class="nav-item"> <a class="nav-link" href="pages/feature-summary.html">All Features</a> </li> 
+     <li class="nav-item"> <a class="nav-link" href="pages/tag-summary.html">All Tags</a> </li> 
      <li class="nav-item"> <a class="nav-link" href="index.html">All Scenarios</a> </li> 
     </ul> 
     <span class="text-light">2019/05/02 00:59:02</span> 
@@ -58,13 +45,13 @@ limitations under the License.
   <main role="main" class="container"> 
    <div class="cluecumber-template"> 
     <div class="pb-2 mt-4 mb-2 border-bottom"> 
-     <h3>All Tags</h3> 
+     <h3>Scenarios Tagged With '@Case2'</h3> 
     </div> 
     <div class="row"> 
      <div class="col-sm-8"> 
       <div class="card h-100"> 
        <div class="card-header">
-        Tag Summary Result Chart
+        Scenario Result Chart
        </div> 
        <div class="card-body"> 
         <div id="canvas-holder" class="w-100 text-center"> 
@@ -76,50 +63,43 @@ limitations under the License.
      <div class="col-sm-4"> 
       <div class="card h-100"> 
        <div class="card-header">
-        Tag Summary
+        Scenario Summary
        </div> 
        <div class="card-body"> 
         <ul class="list-group list-group-flush"> 
-         <li class="list-group-item"><strong>2</strong> Tag(s)</li> 
-         <li class="list-group-item"><strong>2</strong> passed Scenario(s)</li> 
-         <li class="list-group-item"><strong>0</strong> failed Scenario(s)</li> 
-         <li class="list-group-item"><strong>0</strong> skipped Scenario(s)</li> 
+         <li class="list-group-item"><strong>1</strong> Scenario(s)</li> 
+         <li class="list-group-item"><strong>1</strong> passed</li> 
+         <li class="list-group-item"><strong>0</strong> failed</li> 
+         <li class="list-group-item"><strong>0</strong> skipped</li> 
+         <li class="list-group-item"><strong>Time:</strong> 0m 12s 383ms</li> 
         </ul> 
        </div> 
       </div> 
      </div> 
     </div> 
-    <div class="row"> 
+    <div class="row" id="card_passed"> 
      <div class="col-sm-12"> 
-      <div class="card h-100"> 
-       <div class="card-header">
-        Available Tags
+      <div class="card"> 
+       <div class="card-header border-success bg-success text-white">
+        Passed Scenarios
        </div> 
        <div class="card-body"> 
-        <table id="tag_summary" class="table table-hover renderAsDataTable"> 
+        <table id="results_passed" class="table table-hover renderAsDataTable"> 
          <thead> 
           <tr> 
-           <th>Tag</th> 
-           <th>Total</th> 
-           <th>Passed</th> 
-           <th>Failed</th> 
-           <th>Skipped</th> 
+           <th class="text-left">Feature</th> 
+           <th class="text-left">Scenario</th> 
+           <th>Duration</th> 
           </tr> 
          </thead> 
          <tbody> 
           <tr> 
-           <td class="text-left"><a href="pages/tag-scenarios/tag_Case1.html">@Case1</a></td> 
-           <td class="text-right"><strong>1</strong></td> 
-           <td class="text-right">1</td> 
-           <td class="text-right">0</td> 
-           <td class="text-right">0</td> 
-          </tr> 
-          <tr> 
-           <td class="text-left"><a href="pages/tag-scenarios/tag_Case2.html">@Case2</a></td> 
-           <td class="text-right"><strong>1</strong></td> 
-           <td class="text-right">1</td> 
-           <td class="text-right">0</td> 
-           <td class="text-right">0</td> 
+           <td class="text-left"><span data-toggle="tooltip" title="HomePage.feature"><a href="pages/feature-scenarios/feature_0.html">Check the Home Page</a></span> </td> 
+           <td class="text-left"> <a href="pages/scenario-detail/scenario_3.html">User Search Phone Celular</a> </td> 
+           <td class="text-right" data-order="12.383.558.063"> 
+            <nobr>
+             0m 12s 383ms
+            </nobr> </td> 
           </tr> 
          </tbody> 
         </table> 
@@ -163,78 +143,26 @@ limitations under the License.
             var chart = new Chart(ctx, eval({
   "data": {
     "labels": [
-      "@Case1",
-      "@Case2"
+      "passed",
+      "failed",
+      "skipped"
     ],
     "datasets": [
       {
         "data": [
           1,
-          1
+          0,
+          0
         ],
         "backgroundColor": [
           "rgba(40, 167, 69, 1.000)",
-          "rgba(40, 167, 69, 1.000)"
-        ],
-        "label": "passed"
-      },
-      {
-        "data": [
-          0,
-          0
-        ],
-        "backgroundColor": [
           "rgba(220, 53, 69, 1.000)",
-          "rgba(220, 53, 69, 1.000)"
-        ],
-        "label": "failed"
-      },
-      {
-        "data": [
-          0,
-          0
-        ],
-        "backgroundColor": [
-          "rgba(255, 193, 7, 1.000)",
           "rgba(255, 193, 7, 1.000)"
-        ],
-        "label": "passed"
+        ]
       }
     ]
   },
-  "options": {
-    "scales": {
-      "xAxes": [
-        {
-          "ticks": {
-            "min": 0,
-            "display": false
-          },
-          "stacked": true,
-          "scaleLabel": {
-            "display": true,
-            "labelString": "2 Tag(s)"
-          },
-          "stepSize": 0.0
-        }
-      ],
-      "yAxes": [
-        {
-          "ticks": {
-            "min": 0,
-            "display": true
-          },
-          "stacked": true,
-          "scaleLabel": {
-            "display": true,
-            "labelString": "Number of Scenarios"
-          },
-          "stepSize": 1.0
-        }
-      ]
-    }
-  },
-  "type": "bar"
+  "type": "pie"
 }));
 
             var original;

@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3546156344,
+              "duration": 5505977314,
               "status": "passed"
             },
             "line": 4,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 2505362971,
+              "duration": 2629623207,
               "status": "passed"
             },
             "match": {
@@ -36,13 +36,13 @@
           }
         ],
         "line": 7,
-        "name": "User Search Phone",
+        "name": "User Search Phone Iphone",
         "description": "",
-        "id": "check-the-contato-page;user-search-phone",
+        "id": "check-the-home-page;user-search-phone-iphone",
         "after": [
           {
             "result": {
-              "duration": 139624388,
+              "duration": 142296964,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 688313993,
+              "duration": 193996626,
               "status": "passed"
             },
             "line": 8,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 4517497760,
+              "duration": 5522188542,
               "status": "passed"
             },
             "line": 9,
@@ -85,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 268383910,
+              "duration": 118654934,
               "status": "passed"
             },
             "line": 10,
@@ -108,11 +108,118 @@
             "name": "@Case1"
           }
         ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5614438188,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User access the Amaricanas Website",
+            "match": {
+              "location": "HomePageSteps.userAccessTheAmericanasWebsite()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1699356400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User Search Phone Celular",
+        "description": "",
+        "id": "check-the-home-page;user-search-phone-celular",
+        "after": [
+          {
+            "result": {
+              "duration": 146143913,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 182343704,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Write \"celular\" on field for Search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "celular",
+                  "offset": 12
+                }
+              ],
+              "location": "HomePageSteps.userWriteOnFieldSearch(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4562136196,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Click For Search Celular",
+            "match": {
+              "location": "HomePageSteps.userClickForSearchCelular()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179139662,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User views \"celular\" For Title Search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "celular",
+                  "offset": 12
+                }
+              ],
+              "location": "HomePageSteps.userCheckTitleForSearch(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Case2"
+          }
+        ]
       }
     ],
-    "name": "Check the Contato page",
+    "name": "Check the Home Page",
     "description": "",
-    "id": "check-the-contato-page",
+    "id": "check-the-home-page",
     "keyword": "Feature",
     "uri": "HomePage.feature"
   }
