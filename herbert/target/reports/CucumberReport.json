@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3586005122,
+              "duration": 3546156344,
               "status": "passed"
             },
             "line": 4,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 3216623644,
+              "duration": 2505362971,
               "status": "passed"
             },
             "match": {
@@ -35,14 +35,14 @@
             }
           }
         ],
-        "line": 6,
-        "name": "User check the submit button with a empty form",
+        "line": 7,
+        "name": "User Search Phone",
         "description": "",
-        "id": "check-the-contato-page;user-check-the-submit-button-with-a-empty-form",
+        "id": "check-the-contato-page;user-search-phone",
         "after": [
           {
             "result": {
-              "duration": 787183457,
+              "duration": 139624388,
               "status": "passed"
             },
             "match": {
@@ -55,41 +55,56 @@
         "steps": [
           {
             "result": {
-              "duration": 10093694034,
-              "error_message": "java.lang.NullPointerException\n\tat support.DriverQA.click(DriverQA.java:108)\n\tat pages.HomePage.clickMotoG7(HomePage.java:52)\n\tat steps.HomePageSteps.userClickOnMotoG7(HomePageSteps.java:19)\n\tat ✽.Given User clicks on moto g7(HomePage.feature:7)\n",
-              "status": "failed"
+              "duration": 688313993,
+              "status": "passed"
             },
-            "line": 7,
-            "name": "User clicks on moto g7",
+            "line": 8,
+            "name": "User Write \"iphone\" on field for Search",
             "match": {
-              "location": "HomePageSteps.userClickOnMotoG7()"
+              "arguments": [
+                {
+                  "val": "iphone",
+                  "offset": 12
+                }
+              ],
+              "location": "HomePageSteps.userWriteOnFieldSearch(String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4517497760,
+              "status": "passed"
             },
-            "output": [
-              "url: https://www.americanas.com.br/"
-            ],
-            "line": 8,
-            "name": "User views \"família moto g7. importa para você.TJ\" on screen moto g7",
+            "line": 9,
+            "name": "User Click For Search",
+            "match": {
+              "location": "HomePageSteps.userClickForSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268383910,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User views \"iphone\" For Title Search",
             "match": {
               "arguments": [
                 {
-                  "val": "família moto g7. importa para você.TJ",
+                  "val": "iphone",
                   "offset": 12
                 }
               ],
-              "location": "HomePageSteps.userValidateStringMotoG7(String)"
+              "location": "HomePageSteps.userCheckTitleForSearch(String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 5,
+            "line": 6,
             "name": "@Case1"
           }
         ]

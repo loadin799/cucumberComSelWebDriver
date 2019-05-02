@@ -3,8 +3,6 @@ package pages;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import steps.Hooks;
 import support.DriverQA;
 
@@ -35,6 +33,7 @@ public class HomePage extends Hooks {
     @After
     public void depoisDoTeste(){
 
+        driver.quit();
     }
 
     public DriverQA driver;
@@ -56,4 +55,15 @@ public class HomePage extends Hooks {
         return driver.getText("//h1[@class='page-title']", "xpath");
     }
 
+    public void writeFieldSearch(String value) throws InterruptedException {
+        driver.sendKeys(value, "h_search-input","id");
+    }
+
+    public void clickForSearch() {
+        driver.click("//li[@class='ac-lst-it sz sz-1']//a[@class='ac-lnk src-lnk ac-term-key']", "xpath");
+    }
+
+    public String checkTitleForSearch() {
+        return driver.getText("//h1[@class='h1 page-title']", "xpath");
+    }
 }

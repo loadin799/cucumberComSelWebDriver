@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 3216623644,
+  "duration": 2505362971,
   "status": "passed"
 });
 formatter.background({
@@ -26,56 +26,73 @@ formatter.match({
   "location": "HomePageSteps.userAccessTheAmericanasWebsite()"
 });
 formatter.result({
-  "duration": 3586005122,
+  "duration": 3546156344,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 6,
-  "name": "User check the submit button with a empty form",
+  "line": 7,
+  "name": "User Search Phone",
   "description": "",
-  "id": "check-the-contato-page;user-check-the-submit-button-with-a-empty-form",
+  "id": "check-the-contato-page;user-search-phone",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 5,
+      "line": 6,
       "name": "@Case1"
     }
   ]
 });
 formatter.step({
-  "line": 7,
-  "name": "User clicks on moto g7",
+  "line": 8,
+  "name": "User Write \"iphone\" on field for Search",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 8,
-  "name": "User views \"família moto g7. importa para você.TJ\" on screen moto g7",
+  "line": 9,
+  "name": "User Click For Search",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "User views \"iphone\" For Title Search",
   "keyword": "Then "
-});
-formatter.match({
-  "location": "HomePageSteps.userClickOnMotoG7()"
-});
-formatter.result({
-  "duration": 10093694034,
-  "error_message": "java.lang.NullPointerException\n\tat support.DriverQA.click(DriverQA.java:108)\n\tat pages.HomePage.clickMotoG7(HomePage.java:52)\n\tat steps.HomePageSteps.userClickOnMotoG7(HomePageSteps.java:19)\n\tat ✽.Given User clicks on moto g7(HomePage.feature:7)\n",
-  "status": "failed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "família moto g7. importa para você.TJ",
+      "val": "iphone",
       "offset": 12
     }
   ],
-  "location": "HomePageSteps.userValidateStringMotoG7(String)"
+  "location": "HomePageSteps.userWriteOnFieldSearch(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 688313993,
+  "status": "passed"
 });
-formatter.write("url: https://www.americanas.com.br/");
+formatter.match({
+  "location": "HomePageSteps.userClickForSearch()"
+});
+formatter.result({
+  "duration": 4517497760,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "iphone",
+      "offset": 12
+    }
+  ],
+  "location": "HomePageSteps.userCheckTitleForSearch(String)"
+});
+formatter.result({
+  "duration": 268383910,
+  "status": "passed"
+});
 formatter.after({
-  "duration": 787183457,
+  "duration": 139624388,
   "status": "passed"
 });
 });
