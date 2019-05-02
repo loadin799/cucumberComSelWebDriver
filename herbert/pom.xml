@@ -7,7 +7,6 @@
     <groupId>br.com.herbert</groupId>
     <artifactId>herbert</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -133,9 +132,7 @@
                         <configuration>
                             <projectName>${project.name} - System Testing Execution Report</projectName>
                             <outputDirectory>${project.build.directory}/reports</outputDirectory>
-                            <jsonFiles>
-                                <param>${project.build.directory}/reports/CucumberReport.json</param>
-                            </jsonFiles>
+                            <cucumberOutput>${project.build.directory}/reports/CucumberReport.json</cucumberOutput>
                             <parallelTesting>false</parallelTesting>
                         </configuration>
                     </execution>

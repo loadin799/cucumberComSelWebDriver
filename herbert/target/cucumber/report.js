@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2296236696,
+  "duration": 3216623644,
   "status": "passed"
 });
 formatter.background({
@@ -26,7 +26,7 @@ formatter.match({
   "location": "HomePageSteps.userAccessTheAmericanasWebsite()"
 });
 formatter.result({
-  "duration": 4895798223,
+  "duration": 3586005122,
   "status": "passed"
 });
 formatter.scenario({
@@ -57,7 +57,7 @@ formatter.match({
   "location": "HomePageSteps.userClickOnMotoG7()"
 });
 formatter.result({
-  "duration": 10039814336,
+  "duration": 10093694034,
   "error_message": "java.lang.NullPointerException\n\tat support.DriverQA.click(DriverQA.java:108)\n\tat pages.HomePage.clickMotoG7(HomePage.java:52)\n\tat steps.HomePageSteps.userClickOnMotoG7(HomePageSteps.java:19)\n\tat ✽.Given User clicks on moto g7(HomePage.feature:7)\n",
   "status": "failed"
 });
@@ -75,7 +75,7 @@ formatter.result({
 });
 formatter.write("url: https://www.americanas.com.br/");
 formatter.after({
-  "duration": 1061396629,
+  "duration": 787183457,
   "status": "passed"
 });
 });

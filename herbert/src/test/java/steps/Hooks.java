@@ -11,7 +11,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Calendar;
 
-public class Hooks extends BaseSteps {
+    public class Hooks extends BaseSteps {
 
     @Before
     public static void beforeScenario(Scenario scenario) {
